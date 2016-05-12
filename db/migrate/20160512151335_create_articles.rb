@@ -7,5 +7,5 @@ class CreateArticles < ActiveRecord::Migration
       t.datetime :updated_at
 
     end
- 
+  
 
