@@ -4,4 +4,4 @@ class CreateArticles < ActiveRecord::Migration
       t.string :title
     end
   end
-#end
+end
