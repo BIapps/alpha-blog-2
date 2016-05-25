@@ -1,6 +1,7 @@
 <h1 align="center">All Alpha Bloggers</h1>
 <div class="center">
-<% @user.each do |user| %>
+  <%= will_paginate %>
+<% @users.each do |user| %>
   <ul class="listing">
     <div class="row">
      <div class="well col-md-4 col-md-offset-4">
@@ -15,4 +16,5 @@
 
 
 <% end %>
+  <%= will_paginate %>
 </div>
